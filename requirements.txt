@@ -1,0 +1,19 @@
+beautifulsoup4
+requests
+numpy
+pandas
+matplotlib
+yaml
+
+
+Creating virtual environments with conda: 
+
+conda create --name VenvName Libs
+
+Activating and desactivating with conda: 
+
+conda activate VenvName
+
+conda deactivate
+
+      

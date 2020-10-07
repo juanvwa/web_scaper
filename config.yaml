@@ -1,0 +1,23 @@
+news_sites:
+        eluniversal:
+                url: http://www.eluniversal.com.mx
+                queries:
+                        homepage_article_links: '.field-content a'
+                        article_body: '.field-name-body'
+                        article_title: '.pane-content h1'
+        elespectador:
+                url: https://www.elespectador.com
+                queries:
+                        homepage_article_links: '.Card-bodyContent'
+                        article_body: ''
+                        article_title: ''
+
+        semana:
+                url: https://www.semana.com
+                queries:
+                        homepage_article_links: '.card-title h4'
+                        article_body: ''
+                        article_title: ''
+
+
+
