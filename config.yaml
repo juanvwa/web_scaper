@@ -2,22 +2,26 @@ news_sites:
         eluniversal:
                 url: http://www.eluniversal.com.mx
                 queries:
-                        homepage_article_links: '.field-content a'
+                        homepage_article_links: 
+                                '.ce2-balazo a'
                         article_body: '.field-name-body'
-                        article_title: '.pane-content h1'
+                        article_title: 
+                                '.ce2-Tipo1_Titulo a'
         elespectador:
                 url: https://www.elespectador.com
                 queries:
-                        homepage_article_links: '.Card-bodyContent'
+                        homepage_article_links: 
+                                '.Card-bodyContent'
                         article_body: ''
                         article_title: ''
 
         semana:
                 url: https://www.semana.com
                 queries:
-                        homepage_article_links: '.card-title h4'
-                        article_body: ''
-                        article_title: ''
+                        homepage_article_links: 
+                                '.link'
+                        article_body: '.card-media a'
+                        article_title: '.card-title h4 h2'
 
 
 
